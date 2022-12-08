@@ -1,0 +1,400 @@
+C:\ProgramData\Anaconda3\envs\scientificProject\python.exe "C:/Program Files/JetBrains/PyCharm 2022.2.3/plugins/python/helpers/pydev/pydevconsole.py" --mode=client --host=127.0.0.1 --port=50662 
+import sys; print('Python %s on %s' % (sys.version, sys.platform))
+sys.path.extend(['C:\\Users\\Serg\\PycharmProjects\\scientificProject'])
+PyDev console: starting.
+Python 3.10.8 | packaged by conda-forge | (main, Nov 24 2022, 14:07:00) [MSC v.1916 64 bit (AMD64)] on win32
+>>> runfile('C:\\Users\\Serg\\PycharmProjects\\scientificProject\\methods_evaluation.py', wdir='C:\\Users\\Serg\\PycharmProjects\\scientificProject')
+Evaluating error for: ['Width', 'Depth'], epochs: 10, batch_size: 5
+2022-12-07 10:40:06.388990: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-12-07 10:40:06.398229: I tensorflow/core/common_runtime/process_util.cc:146] Creating new thread pool with default inter op setting: 2. Tune using inter_op_parallelism_threads for best performance.
+Test expectations: [[2.48, 1.76], [1.72, 1.2], [1.86, 1.2], [2.54, 1.6], [2.52, 1.36], [1.8, 1.24], [1.96, 1.16], [2.0, 0.88], [1.84, 0.98], [1.82, 1.08], [1.76, 1.24], [2.48, 1.36], [1.96, 1.2], [1.76, 1.36], [2.48, 1.72]]
+Test results: [[2.012843   1.3725029 ]
+ [1.6103302  1.1192899 ]
+ [1.0993569  0.724999  ]
+ [2.2208471  1.4850192 ]
+ [2.2208471  1.4850192 ]
+ [1.5909959  1.0820125 ]
+ [1.1058667  0.5931264 ]
+ [2.130674   0.78154016]
+ [0.9634652  0.6342574 ]
+ [2.183699   1.5308025 ]
+ [2.003686   1.3871372 ]
+ [2.2208471  1.4850192 ]
+ [1.1058667  0.5931264 ]
+ [2.003686   1.3871372 ]
+ [2.012843   1.3725029 ]]
+Epochs: 10, B size: 5, Best train err: -5.7951, Test err: 21.6266, Neurons: 90
+Evaluating error for: ['Width', 'Depth'], epochs: 20, batch_size: 5
+Test expectations: [[2.48, 1.76], [1.72, 1.2], [1.86, 1.2], [2.54, 1.6], [2.52, 1.36], [1.8, 1.24], [1.96, 1.16], [2.0, 0.88], [1.84, 0.98], [1.82, 1.08], [1.76, 1.24], [2.48, 1.36], [1.96, 1.2], [1.76, 1.36], [2.48, 1.72]]
+Test results: [[2.7827957 1.5701569]
+ [2.0217943 1.2185812]
+ [1.6063726 1.0547068]
+ [2.1961102 1.320835 ]
+ [2.1961102 1.320835 ]
+ [1.7097154 1.1578823]
+ [1.7745073 1.1024307]
+ [2.0197594 0.8553573]
+ [1.6511412 1.0250913]
+ [1.902427  1.2652254]
+ [1.7341778 1.2608268]
+ [2.1961102 1.320835 ]
+ [1.7745073 1.1024307]
+ [1.7341778 1.2608268]
+ [2.7827957 1.5701569]]
+Epochs: 20, B size: 5, Best train err: -0.2923, Test err: 8.19, Neurons: 85
+Evaluating error for: ['Width', 'Depth'], epochs: 30, batch_size: 5
+Test expectations: [[2.48, 1.76], [1.72, 1.2], [1.86, 1.2], [2.54, 1.6], [2.52, 1.36], [1.8, 1.24], [1.96, 1.16], [2.0, 0.88], [1.84, 0.98], [1.82, 1.08], [1.76, 1.24], [2.48, 1.36], [1.96, 1.2], [1.76, 1.36], [2.48, 1.72]]
+Test results: [[2.4047282  1.4630585 ]
+ [1.7810552  1.2167556 ]
+ [1.8008878  1.0844446 ]
+ [2.3721259  1.4662613 ]
+ [2.3721259  1.4662613 ]
+ [1.7772672  1.1788368 ]
+ [1.8731396  1.0457081 ]
+ [1.8492123  0.91164505]
+ [1.7655795  1.1237317 ]
+ [1.8304679  1.2633284 ]
+ [1.9551806  1.252586  ]
+ [2.3721259  1.4662613 ]
+ [1.8731396  1.0457081 ]
+ [1.9551806  1.252586  ]
+ [2.4047282  1.4630585 ]]
+Epochs: 30, B size: 5, Best train err: 0.5166, Test err: 7.0902, Neurons: 80
+Evaluating error for: ['Width', 'Depth'], epochs: 40, batch_size: 5
+Test expectations: [[2.48, 1.76], [1.72, 1.2], [1.86, 1.2], [2.54, 1.6], [2.52, 1.36], [1.8, 1.24], [1.96, 1.16], [2.0, 0.88], [1.84, 0.98], [1.82, 1.08], [1.76, 1.24], [2.48, 1.36], [1.96, 1.2], [1.76, 1.36], [2.48, 1.72]]
+Test results: [[1.9661543 1.2446725]
+ [1.8706107 1.2051929]
+ [1.8046784 1.1460233]
+ [1.9423833 1.2351922]
+ [1.9423833 1.2351922]
+ [1.7825756 1.2052432]
+ [1.9658835 1.2666659]
+ [1.9888911 0.8590856]
+ [1.9068696 1.1568481]
+ [1.7341805 1.173444 ]
+ [1.7724729 1.312504 ]
+ [1.9423833 1.2351922]
+ [1.9658835 1.2666659]
+ [1.7724729 1.312504 ]
+ [1.9661543 1.2446725]]
+Epochs: 40, B size: 5, Best train err: 0.7289, Test err: 9.7386, Neurons: 75
+Evaluating error for: ['Width', 'Depth'], epochs: 50, batch_size: 5
+Test expectations: [[2.48, 1.76], [1.72, 1.2], [1.86, 1.2], [2.54, 1.6], [2.52, 1.36], [1.8, 1.24], [1.96, 1.16], [2.0, 0.88], [1.84, 0.98], [1.82, 1.08], [1.76, 1.24], [2.48, 1.36], [1.96, 1.2], [1.76, 1.36], [2.48, 1.72]]
+Test results: [[2.8285766  1.540255  ]
+ [1.7967733  1.1659937 ]
+ [1.8429123  1.1413959 ]
+ [2.355229   1.3296067 ]
+ [2.355229   1.3296067 ]
+ [1.7916147  1.2018685 ]
+ [1.9737025  1.1645112 ]
+ [2.0430837  0.86363995]
+ [1.8677129  1.0416211 ]
+ [1.81821    1.178747  ]
+ [1.7968996  1.2522241 ]
+ [2.355229   1.3296067 ]
+ [1.9737025  1.1645112 ]
+ [1.7968996  1.2522241 ]
+ [2.8285766  1.540255  ]]
+Epochs: 50, B size: 5, Best train err: 0.792, Test err: 4.8933, Neurons: 100
+Evaluating error for: ['Width', 'Depth'], epochs: 60, batch_size: 5
+Test expectations: [[2.48, 1.76], [1.72, 1.2], [1.86, 1.2], [2.54, 1.6], [2.52, 1.36], [1.8, 1.24], [1.96, 1.16], [2.0, 0.88], [1.84, 0.98], [1.82, 1.08], [1.76, 1.24], [2.48, 1.36], [1.96, 1.2], [1.76, 1.36], [2.48, 1.72]]
+Test results: [[2.6890998 1.5819523]
+ [1.7685364 1.1891258]
+ [1.7735269 1.1691967]
+ [2.305102  1.330058 ]
+ [2.305102  1.330058 ]
+ [1.7657063 1.2036391]
+ [1.9446282 1.1725909]
+ [1.9831287 0.8652866]
+ [1.8184817 1.2038205]
+ [1.7862281 1.2021538]
+ [1.8324429 1.2102895]
+ [2.305102  1.330058 ]
+ [1.9446282 1.1725909]
+ [1.8324429 1.2102895]
+ [2.6890998 1.5819523]]
+Epochs: 60, B size: 5, Best train err: 0.7799, Test err: 5.4385, Neurons: 85
+Evaluating error for: ['Width', 'Depth'], epochs: 70, batch_size: 5
+Test expectations: [[2.48, 1.76], [1.72, 1.2], [1.86, 1.2], [2.54, 1.6], [2.52, 1.36], [1.8, 1.24], [1.96, 1.16], [2.0, 0.88], [1.84, 0.98], [1.82, 1.08], [1.76, 1.24], [2.48, 1.36], [1.96, 1.2], [1.76, 1.36], [2.48, 1.72]]
+Test results: [[2.420588  1.5406929]
+ [1.7901837 1.2038647]
+ [1.8392249 1.1401635]
+ [2.330335  1.4812971]
+ [2.330335  1.4812971]
+ [1.7989739 1.2110641]
+ [1.8815501 1.193315 ]
+ [2.0225396 0.8805251]
+ [1.8325433 1.0699704]
+ [1.8296574 1.2298495]
+ [1.7704109 1.2709044]
+ [2.330335  1.4812971]
+ [1.8815501 1.193315 ]
+ [1.7704109 1.2709044]
+ [2.420588  1.5406929]]
+Epochs: 70, B size: 5, Best train err: 0.8084, Test err: 4.4828, Neurons: 60
+Evaluating error for: ['Width', 'Depth'], epochs: 80, batch_size: 5
+Test expectations: [[2.48, 1.76], [1.72, 1.2], [1.86, 1.2], [2.54, 1.6], [2.52, 1.36], [1.8, 1.24], [1.96, 1.16], [2.0, 0.88], [1.84, 0.98], [1.82, 1.08], [1.76, 1.24], [2.48, 1.36], [1.96, 1.2], [1.76, 1.36], [2.48, 1.72]]
+Test results: [[2.4203448  1.5069333 ]
+ [1.7879429  1.2062459 ]
+ [1.8302671  1.1247164 ]
+ [2.364918   1.4724005 ]
+ [2.364918   1.4724005 ]
+ [1.7565849  1.2075448 ]
+ [1.8991113  1.172853  ]
+ [2.0102105  0.86329937]
+ [1.845128   1.1023358 ]
+ [1.7827783  1.2053083 ]
+ [1.7465857  1.2402905 ]
+ [2.364918   1.4724005 ]
+ [1.8991113  1.172853  ]
+ [1.7465857  1.2402905 ]
+ [2.4203448  1.5069333 ]]
+Epochs: 80, B size: 5, Best train err: 0.8429, Test err: 4.6631, Neurons: 60
+Evaluating error for: ['Width', 'Depth'], epochs: 90, batch_size: 5
+Test expectations: [[2.48, 1.76], [1.72, 1.2], [1.86, 1.2], [2.54, 1.6], [2.52, 1.36], [1.8, 1.24], [1.96, 1.16], [2.0, 0.88], [1.84, 0.98], [1.82, 1.08], [1.76, 1.24], [2.48, 1.36], [1.96, 1.2], [1.76, 1.36], [2.48, 1.72]]
+Test results: [[2.3938138  1.5335118 ]
+ [1.7703172  1.2238168 ]
+ [1.7621301  1.2025584 ]
+ [2.3744562  1.4739298 ]
+ [2.3744562  1.4739298 ]
+ [1.7627896  1.2210612 ]
+ [1.9422017  1.1958958 ]
+ [2.0408702  0.87234443]
+ [1.744336   1.184703  ]
+ [1.779293   1.1178468 ]
+ [1.7616155  1.2331451 ]
+ [2.3744562  1.4739298 ]
+ [1.9422017  1.1958958 ]
+ [1.7616155  1.2331451 ]
+ [2.3938138  1.5335118 ]]
+Epochs: 90, B size: 5, Best train err: 0.8717, Test err: 4.5294, Neurons: 100
+Evaluating error for: ['Width', 'Depth'], epochs: 100, batch_size: 5
+Test expectations: [[2.48, 1.76], [1.72, 1.2], [1.86, 1.2], [2.54, 1.6], [2.52, 1.36], [1.8, 1.24], [1.96, 1.16], [2.0, 0.88], [1.84, 0.98], [1.82, 1.08], [1.76, 1.24], [2.48, 1.36], [1.96, 1.2], [1.76, 1.36], [2.48, 1.72]]
+Test results: [[2.4216425 1.5771941]
+ [1.7925835 1.1993233]
+ [1.8032296 1.2126943]
+ [2.4232934 1.4974234]
+ [2.4232934 1.4974234]
+ [1.7985861 1.2063469]
+ [1.952153  1.2002125]
+ [2.028605  0.8555166]
+ [1.8004578 1.2086291]
+ [1.790581  1.1647571]
+ [1.7874807 1.1872989]
+ [2.4232934 1.4974234]
+ [1.952153  1.2002125]
+ [1.7874807 1.1872989]
+ [2.4216425 1.5771941]]
+Epochs: 100, B size: 5, Best train err: 0.8538, Test err: 4.5142, Neurons: 100
+Width + Depth prediction results: 
+[{'epochs': 10, 'best_train_mape': -5.7951, 'test_mape': <tf.Tensor: shape=(15,), dtype=float32, numpy=
+array([20.42693  ,  6.550999 , 40.239105 ,  9.875687 , 10.531866 ,
+       12.17613  , 46.22332  ,  8.8611555, 41.45881  , 30.86221  ,
+       12.855847 ,  9.821151 , 47.075516 ,  7.920587 , 19.52015  ],
+      dtype=float32)>, 'best_train_neurons': 90}, {'epochs': 20, 'best_train_mape': -0.2923, 'test_mape': <tf.Tensor: shape=(15,), dtype=float32, numpy=
+array([11.49802  ,  9.547304 , 12.871826 , 15.49339  ,  7.866274 ,
+        5.819102 ,  7.2133923,  1.8941392,  7.4326096, 10.839723 ,
+        1.5733752,  7.1634746,  8.797348 ,  4.3796573, 10.460655 ],
+      dtype=float32)>, 'best_train_neurons': 85}, {'epochs': 30, 'best_train_mape': 0.5166, 'test_mape': <tf.Tensor: shape=(15,), dtype=float32, numpy=
+array([9.953416 , 2.473009 , 6.403846 , 7.4839444, 6.840674 , 3.0977223,
+       7.1422024, 5.5677075, 9.355548 , 8.775004 , 6.052405 , 6.081546 ,
+       8.64466  , 9.493949 , 8.986809 ], dtype=float32)>, 'best_train_neurons': 80}, {'epochs': 40, 'best_train_mape': 0.7289, 'test_mape': <tf.Tensor: shape=(15,), dtype=float32, numpy=
+array([24.999777 ,  4.5945873,  3.7361712, 23.164352 , 16.049171 ,
+        1.8854927,  4.7477593,  1.4660387, 10.839969 ,  6.6837916,
+        3.277893 , 15.42757  ,  2.9278333,  2.100518 , 24.17745  ],
+      dtype=float32)>, 'best_train_neurons': 75}, {'epochs': 50, 'best_train_mape': 0.792, 'test_mape': <tf.Tensor: shape=(15,), dtype=float32, numpy=
+array([13.27051  ,  3.648713 ,  2.901185 , 12.087019 ,  4.3866706,
+        1.7704844,  0.5440038,  2.0066397,  3.896998 ,  4.620798 ,
+        1.5411896,  3.6329496,  1.8282555,  5.0106335, 12.2529   ],
+      dtype=float32)>, 'best_train_neurons': 100}, {'epochs': 60, 'best_train_mape': 0.7799, 'test_mape': <tf.Tensor: shape=(15,), dtype=float32, numpy=
+array([ 9.273892  ,  1.8640372 ,  3.6080177 , 13.059662  ,  5.364657  ,
+        2.418765  ,  0.93484837,  1.2577723 , 12.0041485 ,  6.5830684 ,
+        3.256042  ,  4.626978  ,  1.5341876 ,  7.562101  ,  8.228736  ],
+      dtype=float32)>, 'best_train_neurons': 85}, {'epochs': 70, 'best_train_mape': 0.8084, 'test_mape': <tf.Tensor: shape=(15,), dtype=float32, numpy=
+array([7.4281373 , 2.201249  , 3.0516574 , 7.836731  , 8.222649  ,
+       1.1952715 , 3.4372687 , 0.59332657, 4.7929535 , 7.2027855 ,
+       1.5419099 , 7.4768944 , 2.2798169 , 3.5713375 , 6.4102383 ],
+      dtype=float32)>, 'best_train_neurons': 60}, {'epochs': 80, 'best_train_mape': 0.8429, 'test_mape': <tf.Tensor: shape=(15,), dtype=float32, numpy=
+array([8.392119  , 2.2353268 , 3.936091  , 7.433979  , 7.2093964 ,
+       2.5146518 , 2.1072946 , 1.204162  , 6.38097   , 6.8238854 ,
+       0.39280125, 6.4525747 , 2.6844122 , 4.7821712 , 7.3965254 ],
+      dtype=float32)>, 'best_train_neurons': 60}, {'epochs': 90, 'best_train_mape': 0.8717, 'test_mape': <tf.Tensor: shape=(15,), dtype=float32, numpy=
+array([ 8.171949  ,  2.455071  ,  2.7375083 ,  7.198432  ,  7.076368  ,
+        1.7972813 ,  2.0012722 ,  1.4567298 , 13.043596  ,  2.8704941 ,
+        0.3223025 ,  6.3164935 ,  0.62504905,  4.7096786 ,  7.158795  ],
+      dtype=float32)>, 'best_train_neurons': 100}, {'epochs': 100, 'best_train_mape': 0.8538, 'test_mape': <tf.Tensor: shape=(15,), dtype=float32, numpy=
+array([ 6.369911  ,  2.1381817 ,  2.0550137 ,  5.5028934 ,  6.971113  ,
+        1.3962543 ,  1.9334784 ,  2.106226  , 12.739266  ,  4.732155  ,
+        2.9057474 ,  6.1956105 ,  0.20903166,  7.130008  ,  5.3278975 ],
+      dtype=float32)>, 'best_train_neurons': 100}]
+Evaluating error for: Width, epochs: 10, batch_size: 5
+Test expectations: [2.48, 1.72, 1.86, 2.54, 2.52, 1.8, 1.96, 2.0, 1.84, 1.82, 1.76, 2.48, 1.96, 1.76, 2.48]
+Test results: [2.7997768 2.0758371 0.97266   2.1441684 2.1441684 1.6758741 1.5249584
+ 2.16152   1.2836272 2.0800247 1.1357344 2.1441684 1.5249584 1.1357344
+ 2.7997768]
+Epochs: 10, B size: 5, Best train err: -4.0042, Test err: 20.87, Neurons: 55
+Evaluating error for: Width, epochs: 20, batch_size: 5
+Test expectations: [2.48, 1.72, 1.86, 2.54, 2.52, 1.8, 1.96, 2.0, 1.84, 1.82, 1.76, 2.48, 1.96, 1.76, 2.48]
+Test results: [2.3447254 1.756579  1.7033112 2.3303204 2.3303204 1.7581137 1.6247138
+ 2.054864  1.6375948 1.9858136 1.8777425 2.3303204 1.6247138 1.8777425
+ 2.3447254]
+Epochs: 20, B size: 5, Best train err: -0.137, Test err: 7.7368, Neurons: 75
+Evaluating error for: Width, epochs: 30, batch_size: 5
+Test expectations: [2.48, 1.72, 1.86, 2.54, 2.52, 1.8, 1.96, 2.0, 1.84, 1.82, 1.76, 2.48, 1.96, 1.76, 2.48]
+Test results: [1.9849662 1.828603  1.8862114 1.9849662 1.9849662 1.7728605 2.0170429
+ 2.1048748 1.8649927 1.9851815 1.7490126 1.9849662 2.0170429 1.7490126
+ 1.9849662]
+Epochs: 30, B size: 5, Best train err: 0.5183, Test err: 8.9963, Neurons: 95
+Evaluating error for: Width, epochs: 40, batch_size: 5
+Test expectations: [2.48, 1.72, 1.86, 2.54, 2.52, 1.8, 1.96, 2.0, 1.84, 1.82, 1.76, 2.48, 1.96, 1.76, 2.48]
+Test results: [2.3420768 1.8350549 1.7620223 2.4517224 2.4517224 1.790479  1.8426378
+ 2.0401056 1.7640092 1.7838823 1.7916547 2.4517224 1.8426378 1.7916547
+ 2.3420768]
+Epochs: 40, B size: 5, Best train err: 0.7863, Test err: 3.6418, Neurons: 50
+Evaluating error for: Width, epochs: 50, batch_size: 5
+Test expectations: [2.48, 1.72, 1.86, 2.54, 2.52, 1.8, 1.96, 2.0, 1.84, 1.82, 1.76, 2.48, 1.96, 1.76, 2.48]
+Test results: [2.3742347 1.7574116 1.8399533 2.3453524 2.3453524 1.757814  1.936735
+ 1.9843037 1.868031  1.830632  1.7484814 2.3453524 1.936735  1.7484814
+ 2.3742347]
+Epochs: 50, B size: 5, Best train err: 0.8716, Test err: 2.715, Neurons: 75
+Evaluating error for: Width, epochs: 60, batch_size: 5
+Test expectations: [2.48, 1.72, 1.86, 2.54, 2.52, 1.8, 1.96, 2.0, 1.84, 1.82, 1.76, 2.48, 1.96, 1.76, 2.48]
+Test results: [1.9586958 1.7813898 1.8334787 2.3347244 2.3347244 1.7791462 1.9472609
+ 1.9916468 1.8492059 1.7694181 1.7592854 2.3347244 1.9472609 1.7592854
+ 1.9586958]
+Epochs: 60, B size: 5, Best train err: 0.8753, Test err: 4.971, Neurons: 70
+Evaluating error for: Width, epochs: 70, batch_size: 5
+Test expectations: [2.48, 1.72, 1.86, 2.54, 2.52, 1.8, 1.96, 2.0, 1.84, 1.82, 1.76, 2.48, 1.96, 1.76, 2.48]
+Test results: [2.4867094 1.8125441 1.7821362 2.379723  2.379723  1.772085  2.0101254
+ 1.9063799 1.7799348 1.7696365 1.7392501 2.379723  2.0101254 1.7392501
+ 2.4867094]
+Epochs: 70, B size: 5, Best train err: 0.8947, Test err: 3.0509, Neurons: 30
+Evaluating error for: Width, epochs: 80, batch_size: 5
+Test expectations: [2.48, 1.72, 1.86, 2.54, 2.52, 1.8, 1.96, 2.0, 1.84, 1.82, 1.76, 2.48, 1.96, 1.76, 2.48]
+Test results: [2.337611  1.7809391 1.7956411 2.324763  2.324763  1.7487844 1.9442844
+ 1.990626  1.8164841 1.7534351 1.7851524 2.324763  1.9442844 1.7851524
+ 2.337611 ]
+Epochs: 80, B size: 5, Best train err: 0.8902, Test err: 3.5786, Neurons: 60
+Evaluating error for: Width, epochs: 90, batch_size: 5
+Test expectations: [2.48, 1.72, 1.86, 2.54, 2.52, 1.8, 1.96, 2.0, 1.84, 1.82, 1.76, 2.48, 1.96, 1.76, 2.48]
+Test results: [2.376296  1.7790648 1.8371407 2.364582  2.364582  1.7852656 1.9433244
+ 1.8558016 1.8623482 1.775192  1.733605  2.364582  1.9433244 1.733605
+ 2.376296 ]
+Epochs: 90, B size: 5, Best train err: 0.909, Test err: 3.144, Neurons: 30
+Evaluating error for: Width, epochs: 100, batch_size: 5
+Test expectations: [2.48, 1.72, 1.86, 2.54, 2.52, 1.8, 1.96, 2.0, 1.84, 1.82, 1.76, 2.48, 1.96, 1.76, 2.48]
+Test results: [2.2861884 1.7895291 1.8027756 2.4278567 2.4278567 1.8015361 1.9660513
+ 1.9650593 1.8742032 1.8009837 1.7851808 2.4278567 1.9660513 1.7851808
+ 2.2861884]
+Epochs: 100, B size: 5, Best train err: 0.9028, Test err: 2.7425, Neurons: 100
+Width prediction results: 
+[{'epochs': 10, 'best_train_mape': -4.0042, 'test_mape': <tf.Tensor: shape=(), dtype=float32, numpy=20.870028>, 'best_train_neurons': 55}, {'epochs': 20, 'best_train_mape': -0.137, 'test_mape': <tf.Tensor: shape=(), dtype=float32, numpy=7.736764>, 'best_train_neurons': 75}, {'epochs': 30, 'best_train_mape': 0.5183, 'test_mape': <tf.Tensor: shape=(), dtype=float32, numpy=8.99631>, 'best_train_neurons': 95}, {'epochs': 40, 'best_train_mape': 0.7863, 'test_mape': <tf.Tensor: shape=(), dtype=float32, numpy=3.6417582>, 'best_train_neurons': 50}, {'epochs': 50, 'best_train_mape': 0.8716, 'test_mape': <tf.Tensor: shape=(), dtype=float32, numpy=2.71496>, 'best_train_neurons': 75}, {'epochs': 60, 'best_train_mape': 0.8753, 'test_mape': <tf.Tensor: shape=(), dtype=float32, numpy=4.970959>, 'best_train_neurons': 70}, {'epochs': 70, 'best_train_mape': 0.8947, 'test_mape': <tf.Tensor: shape=(), dtype=float32, numpy=3.0509408>, 'best_train_neurons': 30}, {'epochs': 80, 'best_train_mape': 0.8902, 'test_mape': <tf.Tensor: shape=(), dtype=float32, numpy=3.5785594>, 'best_train_neurons': 60}, {'epochs': 90, 'best_train_mape': 0.909, 'test_mape': <tf.Tensor: shape=(), dtype=float32, numpy=3.1439888>, 'best_train_neurons': 30}, {'epochs': 100, 'best_train_mape': 0.9028, 'test_mape': <tf.Tensor: shape=(), dtype=float32, numpy=2.7425401>, 'best_train_neurons': 100}]
+Evaluating error for: Depth, epochs: 10, batch_size: 5
+Test expectations: [1.76, 1.2, 1.2, 1.6, 1.36, 1.24, 1.16, 0.88, 0.98, 1.08, 1.24, 1.36, 1.2, 1.36, 1.72]
+Test results: [1.1856288  1.0545588  0.7468838  1.3850392  1.3850392  1.1272081
+ 0.80780125 0.96581167 0.8270556  1.5012196  1.2795041  1.3850392
+ 0.80780125 1.2795041  1.1856288 ]
+Epochs: 10, B size: 5, Best train err: -1.5862, Test err: 18.4204, Neurons: 90
+Evaluating error for: Depth, epochs: 20, batch_size: 5
+Test expectations: [1.76, 1.2, 1.2, 1.6, 1.36, 1.24, 1.16, 0.88, 0.98, 1.08, 1.24, 1.36, 1.2, 1.36, 1.72]
+Test results: [1.5137808  1.1672488  1.1180296  1.448504   1.448504   1.161566
+ 1.2080919  0.92164445 1.0811433  1.3581065  1.0758954  1.448504
+ 1.2080919  1.0758954  1.5137808 ]
+Epochs: 20, B size: 5, Best train err: 0.2024, Test err: 9.6064, Neurons: 85
+Evaluating error for: Depth, epochs: 30, batch_size: 5
+Test expectations: [1.76, 1.2, 1.2, 1.6, 1.36, 1.24, 1.16, 0.88, 0.98, 1.08, 1.24, 1.36, 1.2, 1.36, 1.72]
+Test results: [1.3369998  1.1734278  1.1052958  1.4359208  1.4359208  1.2217691
+ 1.2698246  0.90048933 1.0697025  1.1798036  1.2507493  1.4359208
+ 1.2698246  1.2507493  1.3369998 ]
+Epochs: 30, B size: 5, Best train err: 0.7391, Test err: 8.2805, Neurons: 95
+Evaluating error for: Depth, epochs: 40, batch_size: 5
+Test expectations: [1.76, 1.2, 1.2, 1.6, 1.36, 1.24, 1.16, 0.88, 0.98, 1.08, 1.24, 1.36, 1.2, 1.36, 1.72]
+Test results: [1.4365697  1.203547   1.1667941  1.6196885  1.6196885  1.2210969
+ 1.1936176  0.93862104 1.1339908  1.2352998  1.2903044  1.6196885
+ 1.1936176  1.2903044  1.4365697 ]
+Epochs: 40, B size: 5, Best train err: 0.6948, Test err: 8.5486, Neurons: 70
+Evaluating error for: Depth, epochs: 50, batch_size: 5
+Test expectations: [1.76, 1.2, 1.2, 1.6, 1.36, 1.24, 1.16, 0.88, 0.98, 1.08, 1.24, 1.36, 1.2, 1.36, 1.72]
+Test results: [1.3599477  1.2491748  1.0559523  1.3457334  1.3457334  1.248451
+ 1.2106798  0.84295297 1.0921518  1.157239   1.2443898  1.3457334
+ 1.2106798  1.2443898  1.3599477 ]
+Epochs: 50, B size: 5, Best train err: 0.7123, Test err: 7.6904, Neurons: 100
+Evaluating error for: Depth, epochs: 60, batch_size: 5
+Test expectations: [1.76, 1.2, 1.2, 1.6, 1.36, 1.24, 1.16, 0.88, 0.98, 1.08, 1.24, 1.36, 1.2, 1.36, 1.72]
+Test results: [1.5295873  1.2039856  1.0991873  1.484924   1.484924   1.2056472
+ 1.2142818  0.88037694 1.1608722  1.2140077  1.2273502  1.484924
+ 1.2142818  1.2273502  1.5295873 ]
+Epochs: 60, B size: 5, Best train err: 0.8019, Test err: 7.252, Neurons: 40
+Evaluating error for: Depth, epochs: 70, batch_size: 5
+Test expectations: [1.76, 1.2, 1.2, 1.6, 1.36, 1.24, 1.16, 0.88, 0.98, 1.08, 1.24, 1.36, 1.2, 1.36, 1.72]
+Test results: [1.2993337 1.1607141 1.0759262 1.3333058 1.3333058 1.2091389 1.209799
+ 0.8808061 1.0664638 1.1612707 1.2567315 1.3333058 1.209799  1.2567315
+ 1.2993337]
+Epochs: 70, B size: 5, Best train err: 0.7888, Test err: 7.8546, Neurons: 45
+Evaluating error for: Depth, epochs: 80, batch_size: 5
+Test expectations: [1.76, 1.2, 1.2, 1.6, 1.36, 1.24, 1.16, 0.88, 0.98, 1.08, 1.24, 1.36, 1.2, 1.36, 1.72]
+Test results: [1.4465504 1.1943438 1.056465  1.4054921 1.4054921 1.2014328 1.2042365
+ 0.8350978 1.0809027 1.1943438 1.27318   1.4054921 1.2042365 1.27318
+ 1.4465504]
+Epochs: 80, B size: 5, Best train err: 0.82, Test err: 7.154, Neurons: 100
+Evaluating error for: Depth, epochs: 90, batch_size: 5
+Test expectations: [1.76, 1.2, 1.2, 1.6, 1.36, 1.24, 1.16, 0.88, 0.98, 1.08, 1.24, 1.36, 1.2, 1.36, 1.72]
+Test results: [1.3989849 1.1840572 1.1778897 1.3974783 1.3974783 1.2429374 1.2039698
+ 0.82691   1.0771594 1.1403754 1.2861346 1.3974783 1.2039698 1.2861346
+ 1.3989849]
+Epochs: 90, B size: 5, Best train err: 0.8236, Test err: 6.3709, Neurons: 90
+Evaluating error for: Depth, epochs: 100, batch_size: 5
+Test expectations: [1.76, 1.2, 1.2, 1.6, 1.36, 1.24, 1.16, 0.88, 0.98, 1.08, 1.24, 1.36, 1.2, 1.36, 1.72]
+Test results: [1.5215713  1.1787297  1.0488582  1.4605299  1.4605299  1.1983094
+ 1.1831633  0.83178467 1.0268488  1.0987858  1.2652045  1.4605299
+ 1.1831633  1.2652045  1.5215713 ]
+Epochs: 100, B size: 5, Best train err: 0.7845, Test err: 6.0477, Neurons: 60
+Depth prediction results: 
+[{'epochs': 10, 'best_train_mape': -1.5862, 'test_mape': <tf.Tensor: shape=(), dtype=float32, numpy=18.42037>, 'best_train_neurons': 90}, {'epochs': 20, 'best_train_mape': 0.2024, 'test_mape': <tf.Tensor: shape=(), dtype=float32, numpy=9.606438>, 'best_train_neurons': 85}, {'epochs': 30, 'best_train_mape': 0.7391, 'test_mape': <tf.Tensor: shape=(), dtype=float32, numpy=8.28047>, 'best_train_neurons': 95}, {'epochs': 40, 'best_train_mape': 0.6948, 'test_mape': <tf.Tensor: shape=(), dtype=float32, numpy=8.548553>, 'best_train_neurons': 70}, {'epochs': 50, 'best_train_mape': 0.7123, 'test_mape': <tf.Tensor: shape=(), dtype=float32, numpy=7.6904006>, 'best_train_neurons': 100}, {'epochs': 60, 'best_train_mape': 0.8019, 'test_mape': <tf.Tensor: shape=(), dtype=float32, numpy=7.251991>, 'best_train_neurons': 40}, {'epochs': 70, 'best_train_mape': 0.7888, 'test_mape': <tf.Tensor: shape=(), dtype=float32, numpy=7.8546257>, 'best_train_neurons': 45}, {'epochs': 80, 'best_train_mape': 0.82, 'test_mape': <tf.Tensor: shape=(), dtype=float32, numpy=7.1539836>, 'best_train_neurons': 100}, {'epochs': 90, 'best_train_mape': 0.8236, 'test_mape': <tf.Tensor: shape=(), dtype=float32, numpy=6.370908>, 'best_train_neurons': 90}, {'epochs': 100, 'best_train_mape': 0.7845, 'test_mape': <tf.Tensor: shape=(), dtype=float32, numpy=6.0477242>, 'best_train_neurons': 60}]
+Evaluating error for: Width
+model : AdaBoostRegressor имеет ошибку MAPE = 0.02340665428616084
+model : DecisionTreeRegressor имеет ошибку MAPE = 0.020243329182261908
+model : RandomForestRegressor имеет ошибку MAPE = 0.021140175663750593
+model : KNeighborsRegressor имеет ошибку MAPE = 0.02713584650702136
+model : SupportVectors имеет ошибку MAPE = 0.03381447182445478
+model : GradientBoostingRegressor имеет ошибку MAPE = 0.020275597073241086
+model : LinearRegression имеет ошибку MAPE = 0.03088983583921398
+model : KernelRidge имеет ошибку MAPE = 1.060037578328251
+model : SGDRegressor имеет ошибку MAPE = 0.04175234372634591
+model : ElasticNet имеет ошибку MAPE = 0.11171013387328306
+model : BayesianRidge имеет ошибку MAPE = 0.030845785576036757
+0.020243 DecisionTreeRegressor
+0.020276 GradientBoostingRegressor
+0.02114 RandomForestRegressor
+0.023407 AdaBoostRegressor
+0.027136 KNeighborsRegressor
+0.030846 BayesianRidge
+0.03089 LinearRegression
+0.033814 SupportVectors
+0.041752 SGDRegressor
+0.11171 ElasticNet
+1.060038 KernelRidge
+Evaluating error for: Depth
+model : AdaBoostRegressor имеет ошибку MAPE = 0.05786240433889266
+model : DecisionTreeRegressor имеет ошибку MAPE = 0.043720544964395175
+model : RandomForestRegressor имеет ошибку MAPE = 0.04419898584172457
+model : KNeighborsRegressor имеет ошибку MAPE = 0.05656726615759279
+model : SupportVectors имеет ошибку MAPE = 0.05707641198815208
+model : GradientBoostingRegressor имеет ошибку MAPE = 0.04364805317269013
+model : LinearRegression имеет ошибку MAPE = 0.06580234383530152
+model : KernelRidge имеет ошибку MAPE = 1.0740269522373063
+model : SGDRegressor имеет ошибку MAPE = 0.09337256862932179
+model : ElasticNet имеет ошибку MAPE = 0.146077903733163
+model : BayesianRidge имеет ошибку MAPE = 0.06847602930474896
+0.043648 GradientBoostingRegressor
+0.043721 DecisionTreeRegressor
+0.044199 RandomForestRegressor
+0.056567 KNeighborsRegressor
+0.057076 SupportVectors
+0.057862 AdaBoostRegressor
+0.065802 LinearRegression
+0.068476 BayesianRidge
+0.093373 SGDRegressor
+0.146078 ElasticNet
+1.074027 KernelRidge
